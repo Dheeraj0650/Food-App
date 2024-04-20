@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"run-parcel": "parcel ./src/index.html",
+		"dev": "parcel ./src/index.html",
 		"build": "parcel build ./src/index.html"
 	},
 	"author": "",
@@ -12,10 +12,12 @@
 	"dependencies": {
 		"parcel": "^2.12.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.22.3"
 	},
 	"devDependencies": {
 		"buffer": "^6.0.3",
+		"daisyui": "^4.10.2",
 		"postcss": "^8.4.38",
 		"process": "^0.11.10",
 		"tailwindcss": "^3.4.3"
